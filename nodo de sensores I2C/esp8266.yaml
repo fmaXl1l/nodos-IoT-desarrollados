@@ -1,5 +1,5 @@
 esphome:
-  name: esp8266
+  name: esp8266-sensoresi2c
 
 esp8266:
   board: esp01_1m
@@ -8,10 +8,10 @@ esp8266:
 logger:
 
 mqtt:
-  broker: 192.168.30.6
+  broker: 192.168.30.50
   username: !secret mqtt_user
   password: !secret mqtt_password
-  id: mqtt_client_esp8266
+  id: esp8266_sensoresi2c
 
 i2c:
   sda: 4
@@ -19,34 +19,16 @@ i2c:
   scan: true
   id: bus_a
 
-spi:
-  clk_pin: GPIO14
-  mosi_pin: GPIO13
-  miso_pin: GPIO12
+# Enable Home Assistant API
+# api:
+#   encryption:
+#     key: "9K7zpNy7JVn5TR8u5cEeUs6/jU2mDxs/3FQNIav1ElQ="
 
-rc522_spi:
-  cs_pin: GPIO15
-  update_interval: 1s
-  on_tag:
-    then:
-      - mqtt.publish:
-          topic: ESP8266/RC522/Tag
-          payload: !lambda 'return x;'
-
-binary_sensor:
-  - platform: rc522
-    uid: 07-77-B6-B5
-    name: "RFID Llavero"
-
-  - platform: rc522
-    uid: E3-C3-DD-3E
-    name: "RFID Tarjeta"
- 
 sensor:
   - platform: bh1750
     name: "BH1750 Illuminance"
     address: 0x23
-    update_interval: 20s
+    update_interval: 60s
     state_topic: ESP8266/BH1750/Luminosidad
     
   - platform: aht10
@@ -56,7 +38,7 @@ sensor:
     humidity:
       name: "AHT10 Humidity"
       state_topic: ESP8266/AHT10/Humedad  
-    update_interval: 15s
+    update_interval: 60s
     
   - platform: ms5611
     temperature:
@@ -66,7 +48,7 @@ sensor:
       name: "MS5611 Pressure"
       state_topic: ESP8266/MS5611/Presion
     address: 0x77
-    update_interval: 10s
+    update_interval: 60s
     
   - platform: tcs34725
     red_channel:
@@ -91,22 +73,10 @@ sensor:
     integration_time: auto
     #glass_attenuation_factor: 1.0
     address: 0x29
-    update_interval: 5s
+    update_interval: 60s
     
-  - platform: ultrasonic
-    trigger_pin: 1
-    echo_pin: 3
-    name: "Ultrasonic Sensor"
-    update_interval: 5s
-    state_topic: ESP8266/Ultrasonic
-    
-# Enable Home Assistant API
-#api:
-#  encryption:
-#    key: "8h5rKIDbWA+BtWXAWzaI2gZKiZJ7fUYUaVYlOHCtL+U="
-
 ota:
-  password: "5c3648f57b41ae5e2f73ddbc508b9a42"
+  password: "3b01505b043654b8d846f055577876e0"
 
 wifi:
   ssid: !secret wifi_ssid
@@ -114,8 +84,8 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Esp8266 Fallback Hotspot"
-    password: "a4Mb5aoQe7ha"
+    ssid: "Esp8266-Sensoresi2C"
+    password: "KnqS8u1ynx8f"
 
 captive_portal:
     
