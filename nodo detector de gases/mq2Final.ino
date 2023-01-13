@@ -4,8 +4,8 @@
 WiFiClient esp8266MQ2Client;
 PubSubClient mqttClient(esp8266MQ2Client);
 
-const char* ssid = "ALDRINCNT";
-const char* password = "0400916805";
+const char* ssid = "ssid";
+const char* password = "password";
 const char* server = "192.168.30.50";
 const int port = 1883;
 const char *MQTT_CLIENT_NAME = "ESP8266_MQ2";
