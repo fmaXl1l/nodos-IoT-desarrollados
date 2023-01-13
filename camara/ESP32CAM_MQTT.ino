@@ -29,10 +29,10 @@ IPAddress subnet(255, 255, 255, 0);
 IPAddress primaryDNS(8, 8, 8, 8); //opcional
 IPAddress secondaryDNS(8, 8, 4, 4); //opcional
 
-#define emailSenderAccount    "esp32camHomeAssistant@gmail.com"    //To use send Email for Gmail to port 465 (SSL), less secure app option should be enabled. https://myaccount.google.com/lesssecureapps?pli=1
-#define emailSenderPassword   "ftygrhmiatozoqtr"
+#define emailSenderAccount    "emailDelEmisor@gmail.com"    //To use send Email for Gmail to port 465 (SSL), less secure app option should be enabled. https://myaccount.google.com/lesssecureapps?pli=1
+#define emailSenderPassword   "aaaa11111" //Contraseña aplicacion no segura
 
-#define emailRecipient        "alexfmalmeida@gmail.com"
+#define emailRecipient        "asdfsdffd@gmail.com" //Email destino
 
 //The Email Sending data object contains config and data to send
 SMTPData smtpData;
