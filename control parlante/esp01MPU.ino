@@ -15,8 +15,8 @@
 WiFiClient esp01MPUClient;
 PubSubClient mqttClient(esp01MPUClient);
 
-const char* ssid = "ALDRINCNT";
-const char* password = "0400916805";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 const char* server = "192.168.30.50";
 const int port = 1883;
 const char *MQTT_CLIENT_NAME = "ESP01_MPU";
