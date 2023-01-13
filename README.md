@@ -13,4 +13,6 @@ El **nodo control de acceso** tiene un **microcontrolador PIC** que se encuentra
 
 El **nodo control de iluminación** está implementado en la placa de desarrollo SEA Board. Tiene la programación en el entorno **Arduino** para el chip **ESP32** y la programación en **VHDL** para la **FPGA**.
 
+El **nodo de sensores I2C** se programó mediante **ESPHome**.
 
+La **pantalla WT32** fue programada mediante el software **openHASP**. 
