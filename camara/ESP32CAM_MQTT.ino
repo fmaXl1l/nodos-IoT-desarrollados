@@ -20,8 +20,8 @@
 
 uint16_t nextImageNumber = 0;
 
-#define WIFI_SSID             "ALDRINCNT"
-#define WIFI_PASSWORD         "0400916805"
+#define WIFI_SSID             "SSID"
+#define WIFI_PASSWORD         "PASSWORD"
 // Configuración de la IP estática.
 IPAddress local_IP(192, 168, 30, 30);
 IPAddress gateway(192, 168, 30, 1);
