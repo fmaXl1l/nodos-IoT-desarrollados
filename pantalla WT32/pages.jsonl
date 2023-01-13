@@ -1,0 +1,215 @@
+{"page":0,"comment":"---------- All pages ----------"}
+{
+    "id": 1,
+    "obj": "btn",
+    "action": "back",
+    "x": 0,
+    "y": 0,
+    "w": 70,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+
+
+{"page":1,"comment":"---------- MENU ----------"}
+{
+    "id": 1,
+    "obj": "btn",
+    "action": "p2",
+    "x": 70,
+    "y": 80,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "I2C",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+{
+    "id": 2,
+    "obj": "btn",
+    "action": "p3",
+    "x": 70,
+    "y": 160,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "GAS",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+{
+    "id": 3,
+    "obj": "btn",
+    "action": "p4",
+    "x": 70,
+    "y": 240,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "RIEGO",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+{
+    "id": 4,
+    "obj": "btn",
+    "action": "p5",
+    "x": 70,
+    "y": 320,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "FABRICANTES",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+
+
+{"page":2,"comment":"---------- I2C MENU ----------"}
+{
+    "id": 1,
+    "obj": "btn",
+    "action": "p6",
+    "x": 70,
+    "y": 80,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "AHT10",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+{
+    "id": 2,
+    "obj": "btn",
+    "action": "p7",
+    "x": 70,
+    "y": 160,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "BH1750",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+{
+    "id": 3,
+    "obj": "btn",
+    "action": "p8",
+    "x": 70,
+    "y": 240,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "TCS34725",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+{
+    "id": 4,
+    "obj": "btn",
+    "action": "p9",
+    "x": 70,
+    "y": 320,
+    "w": 200,
+    "h": 60,
+    "bg_color": "#2C3E50",
+    "text": "MS5611",
+    "text_color": "#FFFFFF",
+    "radius": 0,
+    "border_side": 0,
+    "text_font": 22
+}
+
+{"page":3,"comment":"---------- GAS ----------"}
+{"id":1,"obj":"label","x":10,"y":100,"h":50,"w":180,"text":"CO :","bg_color":"#2C3E50"}
+{"id":2,"obj":"label","x":10,"y":150,"h":50,"w":180,"text":"GLP :","bg_color":"#2C3E50"}
+{"id":3,"obj":"label","x":10,"y":200,"h":50,"w":180,"text":"HUMO :","bg_color":"#2C3E50"}
+{"id":4,"obj":"label","x":180,"y":100,"h":50,"w":180,"text":"0ppm","bg_color":"#2C3E50"}
+{"id":5,"obj":"label","x":180,"y":150,"h":50,"w":180,"text":"0ppm","bg_color":"#2C3E50"}
+{"id":6,"obj":"label","x":180,"y":200,"h":50,"w":180,"text":"0ppm","bg_color":"#2C3E50"}
+
+
+{"page":4,"comment":"---------- RIEGO ----------"}
+{"id":1,"obj":"label","x":10,"y":100,"h":50,"w":180,"text":"TEMPERATURA :","bg_color":"#2C3E50"}
+{"id":2,"obj":"label","x":10,"y":150,"h":50,"w":180,"text":"HUMEDAD :","bg_color":"#2C3E50"}
+{"id":3,"obj":"label","x":10,"y":200,"h":50,"w":180,"text":"LUMINOSIDAD :","bg_color":"#2C3E50"}
+{"id":4,"obj":"label","x":10,"y":250,"h":50,"w":180,"text":"HUM. SUELO :","bg_color":"#2C3E50"}
+{"id":5,"obj":"label","x":10,"y":300,"h":50,"w":180,"text":"BOMBA \uE58C :","bg_color":"#2C3E50"}
+{"id":6,"obj":"label","x":180,"y":100,"h":50,"w":180,"text":"0°C","bg_color":"#2C3E50"}
+{"id":7,"obj":"label","x":180,"y":150,"h":50,"w":180,"text":"0%","bg_color":"#2C3E50"}
+{"id":8,"obj":"label","x":180,"y":200,"h":50,"w":180,"text":"0lx","bg_color":"#2C3E50"}
+{"id":9,"obj":"label","x":180,"y":250,"h":50,"w":180,"text":"0%","bg_color":"#2C3E50"}
+{"id":10,"obj":"label","x":180,"y":300,"h":50,"w":180,"text":"OFF","bg_color":"#2C3E50"}
+
+
+{"page":5,"comment":"---------- FABRICANTES ----------"}
+{"id":1,"obj":"label","x":10,"y":80,"h":50,"w":180,"text":"TUYA SMART","bg_color":"#2C3E50"}
+{"id":2,"obj":"btn","x":10,"y":120,"w":105,"h":90,"toggle":true,"text":"\uE6A5","text_font":32,"mode":"break","align":1}
+{"id":3,"obj":"label","x":23,"y":215,"h":50,"w":180,"text":"Enchufe","bg_color":"#2C3E50"}
+{"id":4,"obj":"btn","x":150,"y":120,"w":105,"h":90,"toggle":true,"text":"\uE335","text_font":32,"mode":"break","align":1}
+{"id":5,"obj":"label","x":152,"y":215,"h":50,"w":180,"text":"Interruptor","bg_color":"#2C3E50"}
+
+{"id":6,"obj":"label","x":10,"y":280,"h":50,"w":180,"text":"TP-LINK","bg_color":"#2C3E50"}
+{"id":7,"obj":"btn","x":10,"y":320,"w":105,"h":90,"toggle":true,"text":"\uE6A5","text_font":32,"mode":"break","align":1}
+{"id":8,"obj":"label","x":23,"y":415,"h":50,"w":180,"text":"Enchufe","bg_color":"#2C3E50"}
+{"id":9,"obj":"btn","x":150,"y":320,"w":105,"h":90,"toggle":true,"text":"\uE335","text_font":32,"mode":"break","align":1}
+{"id":10,"obj":"label","x":185,"y":415,"h":50,"w":180,"text":"LED","bg_color":"#2C3E50"}
+
+
+{"page":6,"comment":"---------- AHT10 ----------"}
+{"id":1,"obj":"label","x":230,"y":80,"h":50,"w":50,"text":"\uE50F","text_color":"red","bg_opa":0,"border_width":0}
+{"id":2,"obj":"label","x":70,"y":140,"h":50,"w":150,"text":"0°C","bg_color":"#2C3E50"}
+{"id":3,"obj":"label","x":180,"y":230,"h":50,"w":50,"text":"\uE58E","text_color":"blue","bg_opa":0,"border_width":0}
+{"id":4,"obj":"label","x":70,"y":290,"h":50,"w":150,"text":"0%","bg_color":"#2C3E50"}
+{"id":5,"obj":"label","x":70,"y":80,"h":50,"w":150,"text":"TEMPERATURA","bg_color":"#2C3E50"}
+{"id":6,"obj":"label","x":70,"y":230,"h":50,"w":150,"text":"HUMEDAD","bg_color":"#2C3E50"}
+
+{"page":7,"comment":"---------- BH1750 ----------"}
+{"id":1,"obj":"label","x":70,"y":100,"h":50,"w":180,"text":"LUMINOSIDAD \uE599","bg_color":"#2C3E50"}
+{"id":2,"obj":"label","x":70,"y":160,"h":50,"w":150,"text":"0lx","bg_color":"#2C3E50"}
+
+{"page":8,"comment":"---------- TCS34725 ----------"}
+{"id":1,"obj":"label","x":10,"y":100,"h":50,"w":180,"text":"ROJO :","text_color":"red","bg_opa":0,"border_width":0}
+{"id":2,"obj":"label","x":10,"y":150,"h":50,"w":180,"text":"VERDE :","text_color":"green","bg_opa":0,"border_width":0}
+{"id":3,"obj":"label","x":10,"y":200,"h":50,"w":180,"text":"AZUL :","text_color":"blue","bg_opa":0,"border_width":0}
+{"id":4,"obj":"label","x":10,"y":250,"h":50,"w":180,"text":"LUZ BLANCA :","bg_color":"#2C3E50"}
+{"id":5,"obj":"label","x":10,"y":300,"h":50,"w":180,"text":"LUMINOSIDAD :","bg_color":"#2C3E50"}
+{"id":6,"obj":"label","x":10,"y":350,"h":50,"w":180,"text":"TEMP. COLOR :","bg_color":"#2C3E50"}
+{"id":7,"obj":"label","x":180,"y":100,"h":50,"w":180,"text":"0%","bg_color":"#2C3E50"}
+{"id":8,"obj":"label","x":180,"y":150,"h":50,"w":180,"text":"0%","bg_color":"#2C3E50"}
+{"id":9,"obj":"label","x":180,"y":200,"h":50,"w":180,"text":"0%","bg_color":"#2C3E50"}
+{"id":10,"obj":"label","x":180,"y":250,"h":50,"w":180,"text":"0%","bg_color":"#2C3E50"}
+{"id":11,"obj":"label","x":180,"y":300,"h":50,"w":180,"text":"0lx","bg_color":"#2C3E50"}
+{"id":12,"obj":"label","x":180,"y":350,"h":50,"w":180,"text":"0K","bg_color":"#2C3E50"}
+
+{"page":9,"comment":"---------- MS5611 ----------"}
+{"id":1,"obj":"label","x":70,"y":80,"h":50,"w":180,"text":"TEMPERATURA \uE50F","text_color":"red","bg_opa":0,"border_width":0}
+{"id":2,"obj":"label","x":70,"y":140,"h":50,"w":150,"text":"0°C","bg_color":"#2C3E50"}
+{"id":3,"obj":"label","x":70,"y":230,"h":50,"w":150,"text":"PRESIÓN","text_color":"blue","bg_opa":0,"border_width":0}
+{"id":4,"obj":"label","x":70,"y":290,"h":50,"w":150,"text":"0hPa","bg_color":"#2C3E50"}
+
+
+
+
+
